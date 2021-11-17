@@ -55,7 +55,7 @@ const Footer = () => {
             </div>
             <div>
                 <hr />
-                <span> Copyright &copy; All rights reserve sudeb karmokar</span>
+                <span> Copyright &copy; All rights reserved by Himadri Paul</span>
 
             </div>
         </div>

@@ -1,9 +1,7 @@
 import React from 'react';
 import './Slider.css';
 import { Carousel } from 'react-bootstrap';
-import slide1 from '../../../images/slider-1.jpg'
-import slide2 from '../../../images/slider-2.jpg'
-import slide3 from '../../../images/slider-3.jpg'
+
 
 const Slider = () => {
     return (
@@ -12,7 +10,7 @@ const Slider = () => {
                 <Carousel.Item className="slide-h">
                     <img
                         className="d-block w-100"
-                        src={slide1}
+                        src="https://i.ibb.co/9NQs0cP/tourists-having-fun-coast.jpg"
                         alt="First slide"
                         height="700px"
                     />
@@ -21,7 +19,7 @@ const Slider = () => {
                 <Carousel.Item className="slide-h">
                     <img
                         className="d-block w-100 "
-                        src={slide2}
+                        src="https://i.ibb.co/dptpP4c/young-traveler.jpg"
                         alt="Second slide"
                         height="700px"
                     />
@@ -31,7 +29,7 @@ const Slider = () => {
                 <Carousel.Item className="slide-h">
                     <img
                         className="d-block w-100"
-                        src={slide3}
+                        src="https://i.ibb.co/gJ7sJ8n/men-stand-watch-mountains-tropical-forests-with-backpacks-forest-adventure-traveling-climbing.jpg"
                         alt="Third slide"
                         height="700px"
                     />
